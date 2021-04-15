@@ -4,19 +4,16 @@
 
 .timeline {
   position: relative;
-  padding: 70px;
+  top: 60px;
+  padding: 0;
   list-style: none;
-  margin-left:40px;
-  padding-top:30px;
-  text-align:center;
 }
 .timeline:before {
   position: absolute;
-  
+  top: 0;
   bottom: 0;
-  left: 410px;
+  left: 50%;
   width: 2px;
-  top: 30px;
   margin-left: -1.5px;
   content: "";
   background-color: #e9ecef;
@@ -25,7 +22,6 @@
   position: relative;
   min-height: 50px;
   margin-bottom: 50px;
-  left: 300px;
 }
 .timeline > li:after, .timeline > li:before {
   display: table;
@@ -36,10 +32,10 @@
 }
 .timeline > li .timeline-panel {
   position: relative;
-  float: right;
-  width: 100%;
-  padding: 0 20px 0 100px;
-  text-align: left;
+  float: left;
+  width: 40%;
+  padding: 0 20px 20px 30px;
+  text-align: right;
 }
 .timeline > li .timeline-panel:before {
   right: auto;
@@ -56,12 +52,11 @@
 .timeline > li .timeline-image {
   position: absolute;
   z-index: 100;
-  left: 0;
+  left: 50%;
   width: 80px;
   height: 80px;
-  margin-left: 500px;
+  margin-left: -50px;
   text-align: center;
-  
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
@@ -73,8 +68,8 @@
   margin-top: 12px;
 }
 .timeline > li.timeline-inverted > .timeline-panel {
-  float: left;
-  padding: 0 20px 0 100px;
+  float: right;
+  padding: 0 30px 20px 20px;
   text-align: left;
 }
 .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -102,9 +97,7 @@
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
   margin-bottom: 0;
-  width: 350px;
 }
-
 
 
 
