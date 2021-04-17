@@ -131,12 +131,14 @@
 #login:hover{
    background-color:  #25752d;
    cursor:grab;
+   transition: 0.5s;
    
 
 }
 
 .card-text:hover{
   color:white;
+   transition: 0.5s;
 }
 
 #get-in-touch{
@@ -168,6 +170,8 @@
 .card:hover{
   background-color:  #25752d;
   cursor:grab;
+   transition: 0.5s;
+   transform: translate(-10px);
 
 }
 
@@ -329,19 +333,23 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color:#3b5998
+  background-color:#3b5998;
+  transform: translate(-10px);
 }
 .social-icons a.twitter:hover
 {
-  background-color:#00aced
+  background-color:#00aced;
+  transform: translate(-10px);
 }
 .social-icons a.linkedin:hover
 {
-  background-color:#007bb6
+  background-color:#007bb6;
+  transform: translate(-10px);
 }
-.social-icons a.dribbble:hover
+.social-icons a.github:hover
 {
-  background-color:#ea4c89
+  background-color:#ea4c89;
+  transform: translate(-10px);
 }
 @media (max-width:767px)
 {
